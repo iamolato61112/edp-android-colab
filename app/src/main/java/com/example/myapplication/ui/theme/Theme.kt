@@ -1,4 +1,4 @@
-package com.example.myapplication
+package com.example.myapplication.ui.theme
 
 import android.os.Build
 import androidx.compose.foundation.isSystemInDarkTheme
@@ -29,7 +29,7 @@ private val DarkColorScheme = darkColorScheme(
 )
 
 @Composable
-fun ProfileTheme(
+fun MySocialTheme(
     darkTheme: Boolean = isSystemInDarkTheme(),
     dynamicColor: Boolean = false,
     content: @Composable () -> Unit
